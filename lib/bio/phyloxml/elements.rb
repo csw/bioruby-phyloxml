@@ -21,14 +21,6 @@ require 'bio/tree'
 require 'bio/sequence'
 require 'bio/reference'
 
-# Autoload definition
-module Bio
-  module PhyloXML
-    autoload :Parser, 'bio/db/phyloxml/phyloxml_parser'
-    autoload :Writer, 'bio/db/phyloxml/phyloxml_writer'
-  end
-end
-
 require 'libxml'
 
 module Bio

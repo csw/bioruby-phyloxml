@@ -29,7 +29,6 @@ require 'uri'
 require 'libxml'
 
 require 'bio/tree'
-require 'bio/db/phyloxml/phyloxml_elements'
 
 
 module Bio
