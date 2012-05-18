@@ -8,8 +8,8 @@
 
 # loading helper routine for testing bioruby
 require 'pathname'
-load Pathname.new(File.join(File.dirname(__FILE__), ['..'] * 3,
-                            'bioruby_test_helper.rb')).cleanpath.to_s
+load Pathname.new(File.join(File.dirname(__FILE__), ['..'] * 2,
+                            'helper.rb')).cleanpath.to_s
 
 # libraries needed for the tests
 require 'test/unit'
@@ -20,7 +20,7 @@ rescue LoadError
 end
 
 if defined?(LibXML) then
-  require 'bio/db/phyloxml/phyloxml_parser'
+  require 'bio/phyloxml'
 end
 
 module Bio
