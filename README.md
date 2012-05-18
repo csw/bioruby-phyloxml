@@ -55,6 +55,13 @@ the [BioRuby] installation page](http://bioruby.open-bio.org/wiki/Installation).
 gem install bio-phyloxml
 ```
 
+## Migration
+
+Users who were previously using the PhyloXML support in the core
+BioRuby gem should be able to migrate to using this gem very
+easily. Simply install the `bio-phyloxml` gem as described below, and
+add `require 'bio-phyloxml'` to the relevant application code.
+
 ## Usage
 
 ```ruby
@@ -64,7 +71,7 @@ require 'bio-phyloxml'
 ### Parsing a file
 
 ```ruby
-require 'bio'
+require 'bio-phyloxml'
 
 # Create new phyloxml parser
 phyloxml = Bio::PhyloXML::Parser.open('example.xml')
@@ -117,7 +124,7 @@ writer.write(tree2)
 Here is an example of how to retrieve the scientific name of the clades included in each tree.
 
 ```ruby
-require 'bio'
+require 'bio-phyloxml'
 
 phyloxml = Bio::PhyloXML::Parser.open('ncbi_taxonomy_mollusca.xml')
 phyloxml.each do |tree|
