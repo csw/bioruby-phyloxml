@@ -2,16 +2,17 @@
 
 [![Build Status](https://secure.travis-ci.org/csw/bioruby-phyloxml.png)](http://travis-ci.org/csw/bioruby-phyloxml)
 
-bio-phyloxml is a [PhyloXML](http://www.phyloxml.org/) plugin for
+bio-phyloxml is a [phyloXML](http://www.phyloxml.org/) plugin for
 [BioRuby](http://bioruby.open-bio.org/), an open source bioinformatics
 library for Ruby.
 
-PhyloXML is an XML language for saving, analyzing and exchanging data of 
-annotated phylogenetic trees. PhyloXML's parser in BioRuby is implemented in 
-Bio::PhyloXML::Parser, and its writer in Bio::PhyloXML::Writer. 
-More information can be found at [phyloxml.org](http://www.phyloxml.org).
+phyloXML is an XML language for saving, analyzing and exchanging data
+of annotated phylogenetic trees. The phyloXML parser in BioRuby is
+implemented in Bio::PhyloXML::Parser, and its writer in
+Bio::PhyloXML::Writer.  More information can be found at
+[phyloxml.org](http://www.phyloxml.org).
 
-This PhyloXML code has historically been part of the core BioRuby
+This phyloXML code has historically been part of the core BioRuby
 [gem](https://github.com/bioruby/bioruby), but has been split into its
 own gem as part of an effort to
 [modularize](http://bioruby.open-bio.org/wiki/Plugins)
@@ -27,7 +28,7 @@ of development, see
 and the BioRuby mailing list archives.
 
 *NOTE:* this is currently in the repackaging process and is not yet
- released! Production users should use the PhyloXML support provided
+ released! Production users should use the phyloXML support provided
  with BioRuby for the time being.
 
 ## Requirements
@@ -57,7 +58,7 @@ gem install bio-phyloxml
 
 ## Migration
 
-Users who were previously using the PhyloXML support in the core
+Users who were previously using the phyloXML support in the core
 BioRuby gem should be able to migrate to using this gem very
 easily. Simply install the `bio-phyloxml` gem as described below, and
 add `require 'bio-phyloxml'` to the relevant application code.
