@@ -18,6 +18,14 @@ own gem as part of an effort to
 BioRuby. bio-phyloxml and many more plugins are available at
 [biogems.info](http://www.biogems.info/).
 
+This code was originally written by Diana Jaunzeikare during the
+Google Summer of Code 2009 for the
+[Implementing phyloXML support in BioRuby](http://informatics.nescent.org/wiki/Phyloinformatics_Summer_of_Code_2009#Implementing_phyloXML_support_in_BioRuby)
+project with NESCent, mentored by Christian Zmasek et al. For details
+of development, see
+[github.com/latvianlinuxgirl/bioruby](https://github.com/latvianlinuxgirl/bioruby)
+and the BioRuby mailing list archives.
+
 *NOTE:* this is currently in the repackaging process and is not yet
  released! Production users should use the PhyloXML support provided
  with BioRuby for the time being.
