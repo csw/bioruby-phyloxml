@@ -47,7 +47,7 @@ gem install -r bio libxml-ruby
 
 For more information see the
 [libxml installer page](http://libxml.rubyforge.org/install.xml) and
-the [BioRuby] installation page](http://bioruby.open-bio.org/wiki/Installation).
+the [BioRuby installation page](http://bioruby.open-bio.org/wiki/Installation).
 
 
 ## Installation
