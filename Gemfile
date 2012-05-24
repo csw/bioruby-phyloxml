@@ -1,7 +1,5 @@
 source "http://rubygems.org"
 # Add dependencies required to use your gem here.
-# Example:
-#   gem "activesupport", ">= 2.3.5"
 
 gem "bio", "~> 1.4.2"
 gem "libxml-ruby", "~> 2.3.2"
